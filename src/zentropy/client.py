@@ -4,7 +4,7 @@ from .connection import Connection
 from .exceptions import AuthError
 
 class Client:
-    def __init__(self, host='127.0.0.1', port=6379, unix_socket=None, password=None):
+    def __init__(self, host='127.0.0.1', port=6383, unix_socket=None, password=None):
         self.conn = Connection(host, port, unix_socket)
         if password:
             self.auth(password)
