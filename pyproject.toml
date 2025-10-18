@@ -3,7 +3,7 @@ requires = ["hatchling >= 1.26"]
 build-backend = "hatchling.build"
 
 [project]
-name = "zentropy"
+name = "zentropy-py"
 version = "0.1.0"
 description = "A simple client for Zentropy server"
 readme = "README.md"
@@ -34,10 +34,10 @@ dev = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/mailmug/zentropy-client-python"
-Documentation = "https://github.com/mailmug/zentropy-client-python#readme"
-Repository = "https://github.com/mailmug/zentropy-client-python"
-Issues = "https://github.com/mailmug/zentropy-client-python/issues"
+Homepage = "https://github.com/mailmug/zentropy-py"
+Documentation = "https://github.com/mailmug/zentropy-py#readme"
+Repository = "https://github.com/mailmug/zentropy-py"
+Issues = "https://github.com/mailmug/zentropy-py/issues"
 
 [project.scripts]
 zentropy-cli = "zentropy.cli:main"
