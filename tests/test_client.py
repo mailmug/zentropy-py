@@ -6,7 +6,7 @@ class TestClient(unittest.TestCase):
     
     @patch('zentropy.client.Connection')
     def test_auth_success(self, mock_conn):
-        mock_conn.return_value.recv.return_value = b'OK'
+        mock_conn.return_value.recv.return_value = b'+OK'
         client = Client(password='testpass')
         self.assertTrue(client.auth('testpass'))
     
