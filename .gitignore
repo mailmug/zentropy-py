@@ -11,6 +11,7 @@ venv/
 # Build
 build/
 dist/
+dist/*
 *.egg-info/
 
 # Testing
