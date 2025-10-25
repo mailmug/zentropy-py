@@ -17,7 +17,7 @@ def main():
         # client = Client(host='127.0.0.1', port=6383, password='pass@123')
         
         # Without authentication
-        client = Client(host='127.0.0.1', port=6383, password='pass@123')
+        client = Client(host='127.0.0.1', port=6383)
         
         # Test connection
         if client.ping():
